@@ -1,0 +1,7 @@
+NewsLetter SignUp Page v0.1
+
+Completed the landing Page.
+
+NextSteps : Implemented the Javascript code to redirect to a new html page when ever the condition is satisfied.Success.HTML is yet to be implemented and needs to be attached to a new style-success.css page.
+
+Webpage needs a phone version / version for smaller devices that is yet to be implemented.

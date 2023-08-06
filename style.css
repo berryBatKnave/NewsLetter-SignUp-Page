@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("./assets/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: hsl(234, 29%, 20%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    max-width: 950px;
+    border-radius: 1rem;
+}
+
+.news-letter{
+    padding: 70px;
+    margin-top : 50px;
+}
+
+.news-letter h1{
+    font-family: Roboto-Bold;
+    font-size: 3.6rem;
+}
+
+.news-letter p{
+    padding : 20px 0;
+    line-height: 25px;
+}
+
+.news-letter ul{
+    list-style: none;
+    margin-bottom : 40px;
+}
+
+.news-letter ul li{
+    display: flex;
+    align-items: center;
+    padding : 5px 0;
+}
+
+.news-letter ul img{
+    margin-right : 15px;
+}
+
+.news-letter h3{
+    margin: 10px 0;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.news-letter input{
+    display:block;
+    width: 94%;
+    height: 30px;
+    margin-bottom : 10px;
+    font-family: Roboto;
+    padding: 10px;
+    border-radius: 0.3rem;
+    border-color: hsl(4, 100%, 67%);
+    font-size: 14px;
+}
+#submit{
+    display: block;
+    width: 100%;
+    padding:10px;
+    text-align: center;
+    height : 50px;
+    border-radius: 0.3rem;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    border:none
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-image: linear-gradient(hsl(4, 100%, 64%),hsl(4, 100%, 73%));
+    border: none;
+}
+
+.news-letter span h3{
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    left: 180px;
+    /* color: hsl(4, 100%, 67%); */
+    color : white;
+
+}
+
+.news-letter-image{
+    padding: 20px;
+}
+
+
+.invalid {
+    border:none;
+    background-color: red;
+}

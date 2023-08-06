@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/icon-list.svg">
+  
+  <title>Newsletter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+<div class="container">
+  <div class="news-letter">
+    <h1>
+      Stay updated!
+    </h1>
+    <p>Join 60,000+ product managers receiving monthly updates on:</p>
+    <ul>
+      <li><img src="./assets/images/icon-list.svg" alt="list-icon-image">Product discovery and building what matters</li>
+      <li><img src="./assets/images/icon-list.svg" alt="list-icon-image">Measuring to ensure updates are a success</li>
+      <li><img src="./assets/images/icon-list.svg" alt="list-icon-image">And much more!</li>
+    </ul>
+    <h3>Email address</h3><span><h3>Valid Email Required</h3></span>
+    <!-- <form name="form"> -->
+    <input type="email" name="email-address" placeholder="example@company.com" class="email-input">
+    <input type="submit" value="Subscriber To The NewsLetter" id ="submit" onclick="ValidateEmail(document.querySelector('.email-input').value)">
+    <!-- </form> -->
+  </div>
+  <div class="news-letter-image">
+    <img src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+  </div>
+</div>
+
+<div class="container-success">
+  
+</div>
+
+
+
+  
+<!-- 
+  Stay updated!
+
+  Join 60,000+ product managers receiving monthly updates on:
+
+  Product discovery and building what matters
+  Measuring to ensure updates are a success
+  And much more!
+
+  Email address
+  email@company.com
+
+  Subscribe to monthly newsletter -->
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+
+  <!-- Thanks for subscribing!
+
+  A confirmation email has been sent to ash@loremcompany.com. 
+  Please open it and click the button inside to confirm your subscription.
+
+  Dismiss message -->
+
+  <!-- Success message end -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
