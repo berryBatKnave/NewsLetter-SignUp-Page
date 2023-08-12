@@ -5,3 +5,22 @@ Completed the landing Page.
 NextSteps : Implemented the Javascript code to redirect to a new html page when ever the condition is satisfied.Success.HTML is yet to be implemented and needs to be attached to a new style-success.css page.
 
 Webpage needs a phone version / version for smaller devices that is yet to be implemented.
+
+
+NewsLetter SignUp Page v0.2
+
+Completed the success page.
+
+Implemented the passing of the email from one page to another with the help of local-storage for javascript.
+
+localStorage.setItem(mailStorage, mail);
+
+-Storaing the value first from the passed value of mail to a local variable declared "mailStorage".
+
+var value = localStorage.getItem(mailStorage);
+$(".container p b").text(value);
+
+-Then with the help of jQuery changed the innerText for the bold element and replaced with the local stored value.
+
+
+NextSteps : Webpage needs a phone version / version for smaller devices that is yet to be implemented.
