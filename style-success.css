@@ -70,3 +70,13 @@ body{
     background-image: linear-gradient(hsl(4, 100%, 64%),hsl(4, 100%, 73%));
     border: none;
 }
+
+@media screen and (max-width:375px) {
+    .container{
+        min-height: 100vh;
+        border-radius: 0;
+        justify-content: center;
+    }
+
+
+}

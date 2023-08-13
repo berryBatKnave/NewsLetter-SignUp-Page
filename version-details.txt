@@ -24,3 +24,10 @@ $(".container p b").text(value);
 
 
 NextSteps : Webpage needs a phone version / version for smaller devices that is yet to be implemented.
+
+
+NewLetter SignUp Page v1.0
+
+Completed the basic implementation.
+
+Mobile versions are working as expected under 375px size device screens.
